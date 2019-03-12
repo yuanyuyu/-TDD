@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'suplerlists.urls'
+ROOT_URLCONF = 'superlists.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'suplerlists.wsgi.application'
+WSGI_APPLICATION = 'superlists.wsgi.application'
 
 
 # Database
