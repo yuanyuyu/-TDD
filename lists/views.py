@@ -6,3 +6,4 @@ def home_page(request):
         'new_item_text': request.POST.get('item_text', ''),
         })
 
+
